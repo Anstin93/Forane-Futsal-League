@@ -1,8 +1,40 @@
+    /***** Basic *****/
+
 body {
     background-color: grey;
 }
 
-.navbar-brand {
-    font-size: 20px !important;
+
+    /***** NavBar *****/
+
+.navbar .navbar-brand {
+    font-size: 20px;
     letter-spacing: 3px;
+}
+
+.dropdown .dropdown-menu a:hover {
+    background-color: rgb(29, 199, 14);
+}
+
+.nav-item .btn-login {
+    background-color: rgb(29, 199, 14);
+    padding: 10px 20px
+}
+
+
+    /***** Carousel *****/
+
+.carousel-inner img {
+    height: 100vh;    
+}
+
+.green-filter:after {
+    background: rgba(21, 129, 21, 0.64);
+    /* background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+    background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); */
+}
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: 2;
 }
