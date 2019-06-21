@@ -1,7 +1,7 @@
     /***** Basic *****/
 
 body {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -13,11 +13,11 @@ body {
 }
 
 .dropdown .dropdown-menu a:hover {
-    background-color: rgb(29, 199, 14);
+    background-image: linear-gradient(to right top, #1dc70e, #10c32a, #03c03b, #00bc47, #00b852, #00b45b, #00b163, #00ad6a, #00a972, #00a478, #009f7d, #009a81);
 }
 
 .nav-item .btn-login {
-    background-color: rgb(29, 199, 14);
+    background-image: linear-gradient(to right top, #1dc70e, #10c32a, #03c03b, #00bc47, #00b852, #00b45b, #00b163, #00ad6a, #00a972, #00a478, #009f7d, #009a81);
     padding: 10px 20px
 }
 
@@ -30,11 +30,31 @@ body {
 
 .green-filter:after {
     background: rgba(21, 129, 21, 0.64);
-    /* background: linear-gradient(45deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-    background: -moz-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(101, 47, 142, 0.88) 0%, rgba(125, 46, 185, 0.45) 100%); */
+    background: linear-gradient(45deg, rgba(21, 129, 21, 0.88) 0%, rgba(0, 99, 108, 0.45) 100%);
+    background: -moz-linear-gradient(135deg, rgba(21, 129, 21, 0.88) 0%, rgba(0, 99, 108, 0.45) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(21, 129, 21, 0.88) 0%, rgba(0, 99, 108, 0.45) 100%);
 }
 
 .carousel-control-next, .carousel-control-prev {
     z-index: 2;
+}
+
+
+/***** Team Profile *****/
+.team-profile {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+}
+
+a.nav-link.active.show  {
+    background-image: linear-gradient(to right top, #1dc70e, #10c32a, #03c03b, #00bc47, #00b852, #00b361, #00ad6d, #00a776, #009e82, #009489, #008a8d, #007f8b);
+}
+
+.card-deck .card .card-img-top {
+    padding: 0 10px;
+    position: relative;
+    bottom: 12px;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 15px -8px rgba(0, 0, 0, 0.24), 0 8px 10px -5px rgba(0, 0, 0, 0.2); */
 }
